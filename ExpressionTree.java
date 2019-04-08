@@ -102,6 +102,7 @@ public class ExpressionTree{
   }
 
 
+
   public static void main(String[] args){
     ExpressionTree a = new ExpressionTree(4.0);
     ExpressionTree b = new ExpressionTree(2.0);
