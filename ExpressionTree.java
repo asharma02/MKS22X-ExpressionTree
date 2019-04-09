@@ -129,7 +129,7 @@ System.out.println(d);
     System.out.println(ex);
     System.out.println(ex.toStringPostfix());
     System.out.println(ex.toStringPrefix());
-    System.out.println(ex.evaluate());//20
+    System.out.println(ex.evaluate()); //20
 
     ex = new ExpressionTree('+',new ExpressionTree(1.0),ex);
   System.out.println(ex);
